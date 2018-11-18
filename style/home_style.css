@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#home_section_repair{
+	padding-top:1px; 
+	padding-bottom:1px;
+}
+@keyframes appointment_animation{
+	0%{transform:scale(1);}
+	50%{transform:scale(0.8);}
+	100%{transform:scale(1);}
+}
+#appointment_btn{
+	animation-name:appointment_animation;
+	transition:transform 2s;
+	animation-duration:2s;
+	animation-iteration-count: infinite;
+    box-shadow:0px 2px 10px black;	
+}
+.my_class{
+	background-color:red;
+}
